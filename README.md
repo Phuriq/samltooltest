@@ -2,7 +2,7 @@
 TEST ระบบ saml 
 # ขั้นตอนการติดตั้ง
 - Clone ตัว REPO
-- ตั้้งค่า Loopback mapping ไปที่ "sp.samltools.com". For example on mac, I do the following
+- ตั้้งค่า Loopback mapping ไปที่ "sp.samltools.com". (ตัวอย่างการรันนี้ รันผ่าน Terminal บน mac)
 
 ```
 ตั้งค่า host เข้า ใช้คำสั่ง sudo nano /etc/hosts และเพิ่ม 127.0.0.7 sp.samltools.com
