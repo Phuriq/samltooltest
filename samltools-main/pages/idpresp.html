@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Post</title>
+ </head>
+<body>
+   <form action="{{.ACSUrl}}" method="post">
+        <div><input type="text" rows="6" cols="150" id="SAMLResponse" name="SAMLResponse" value= "{{.Base64Assertion}}"> SAML Response</input></div>
+        <div><input type="text" rows="6" cols="150" id="RelayState" name="RelayState" value= "{{.RelayState}}"> RelayState </input></div>
+        <div><button type="submit">Submit Form</button></div>
+
+    </form>
+    
+</body>
+
